@@ -45,7 +45,7 @@ namespace CinemaBot.Answer
                         "amor",
                         "paixao"
                     },
-                    Response = "Estes são os filmes de romance: ",
+                    Response = "Estes são os filmes de romance e suas sessões: ",
                     Action = ActionAnswer.ListarRomances
                 },
 
@@ -61,7 +61,7 @@ namespace CinemaBot.Answer
                         "engracados",
                         "risada"
                     },
-                    Response = "Estes são os filmes de comédia: ",
+                    Response = "Estes são os filmes de comédia e suas sessões: ",
                     Action = ActionAnswer.ListarComedias
                 },
 
@@ -76,7 +76,7 @@ namespace CinemaBot.Answer
                         "agitado",
                         "agitados"
                     },
-                    Response = "Estes são os filmes de Ação: ",
+                    Response = "Estes são os filmes de Ação e suas sessões: ",
                     Action = ActionAnswer.ListarAcao
                 },
 
@@ -92,8 +92,8 @@ namespace CinemaBot.Answer
                         "peripecia",
                         "peripecias"
                     },
-                    Response = "Estes são os filmes de Aventura: ",
-                    Action = ActionAnswer.ListarAcao
+                    Response = "Estes são os filmes de Aventura e suas sessões: ",
+                    Action = ActionAnswer.ListarAventuras
                 }
             };
         }

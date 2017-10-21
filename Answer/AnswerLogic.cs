@@ -45,6 +45,10 @@ namespace CinemaBot.Answer
                         foreach (var filme in filmes)
                         {
                             sb.Append($"<br /> -{filme.Name}");
+                            foreach (var session in filme.Session)
+                            {
+                                sb.Append($"<br />      {session}");
+                            }
                         }
                         break;
                     case ActionAnswer.ListarComedias:
@@ -52,6 +56,10 @@ namespace CinemaBot.Answer
                         foreach (var filme in filmesComedias)
                         {
                             sb.Append($"<br /> -{filme.Name}");
+                            foreach (var session in filme.Session)
+                            {
+                                sb.Append($"<br />      {session}");
+                            }
                         }
                         break;
                     case ActionAnswer.ListarRomances:
@@ -59,6 +67,10 @@ namespace CinemaBot.Answer
                         foreach (var filme in filmesRomanticos)
                         {
                             sb.Append($"<br /> -{filme.Name}");
+                            foreach (var session in filme.Session)
+                            {
+                                sb.Append($"<br />      {session}");
+                            }
                         }
                         break;
                     case ActionAnswer.ListarAcao:
@@ -66,6 +78,10 @@ namespace CinemaBot.Answer
                         foreach (var filme in filmesAcao)
                         {
                             sb.Append($"<br /> -{filme.Name}");
+                            foreach (var session in filme.Session)
+                            {
+                                sb.Append($"<br />      {session}");
+                            }
                         }
                         break;
                     case ActionAnswer.ListarAventuras:
@@ -73,6 +89,10 @@ namespace CinemaBot.Answer
                         foreach (var filme in filmesAventura)
                         {
                             sb.Append($"<br /> -{filme.Name}");
+                            foreach (var session in filme.Session)
+                            {
+                                sb.Append($"<br />      {session}");
+                            }
                         }
                         break;
                 }

@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 
 namespace CinemaBot.Movie
 {
@@ -12,49 +11,105 @@ namespace CinemaBot.Movie
                 new MovieModel
                 {
                     Name = "De repente é Amor",
-                    Genre = "Romance"
+                    Genre = "Romance",
+                    Session  = new List<string>
+                    {
+                        "10:30 às 12:15",
+                        "14:00 às 15:45",
+                        "16:30 às 18:15",
+                        "21:00 às 22:45"
+                    }
                 },
 
                 new MovieModel
                 {
-                    Name = "300 dias com ela",
-                    Genre = "Romance"
+                    Name = "500 dias com ela",
+                    Genre = "Romance",
+                    Session  = new List<string>
+                    {
+                        "10:00 às 12:45",
+                        "14:30 às 16:15",
+                        "16:00 às 17:45",
+                        "21:30 às 23:15"
+                    }
                 },
 
                 new MovieModel
                 {
                     Name = "Kingsman: The Golden Circle",
-                    Genre = "Aventura"
+                    Genre = "Aventura",
+                    Session  = new List<string>
+                    {
+                        "10:30 às 12:15",
+                        "14:00 às 15:45",
+                        "16:30 às 18:15",
+                        "21:00 às 22:45"
+                    }
                 },
 
                 new MovieModel
                 {
                     Name = "Jogos Vorazes",
-                    Genre = "Aventura"
+                    Genre = "Aventura",
+                    Session  = new List<string>
+                    {
+                        "10:00 às 12:45",
+                        "14:30 às 16:15",
+                        "16:00 às 17:45",
+                        "21:30 às 23:15"
+                    }
                 },
 
                 new MovieModel
                 {
                     Name = "O Batman",
-                    Genre = "Acao"
+                    Genre = "Acao",
+                    Session  = new List<string>
+                    {
+                        "10:30 às 12:15",
+                        "14:00 às 15:45",
+                        "16:30 às 18:15",
+                        "21:00 às 22:45"
+                    }
                 },
 
                 new MovieModel
                 {
                     Name = "Logan",
-                    Genre = "Acao"
+                    Genre = "Acao",
+                    Session  = new List<string>
+                    {
+                        "10:00 às 12:45",
+                        "14:30 às 16:15",
+                        "16:00 às 17:45",
+                        "21:30 às 23:15"
+                    }
                 },
 
                 new MovieModel
                 {
                     Name = "As Branquelas",
-                    Genre = "Comedia"
+                    Genre = "Comedia",
+                    Session  = new List<string>
+                    {
+                        "10:30 às 12:15",
+                        "14:00 às 15:45",
+                        "16:30 às 18:15",
+                        "21:00 às 22:45"
+                    }
                 },
 
                 new MovieModel
                 {
                     Name = "Gente Grande",
-                    Genre = "Comedia"
+                    Genre = "Comedia",
+                    Session  = new List<string>
+                    {
+                        "10:00 às 12:45",
+                        "14:30 às 16:15",
+                        "16:00 às 17:45",
+                        "21:30 às 23:15"
+                    }
                 }
             };
         }
